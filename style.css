@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-image: url('./backgroundImage.jpg');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* This makes the image cover the entire screen */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    display: flex;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(./Norse-Bold.otf);
+}
+
+
+.logo {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 100px;
+}
+
+.logo #main {
+    font-size: 4rem;
+    font-family: 'Norse-Bold';
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    background-color: white;
+}
+
+.logo #footer {
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+#one {
+    margin-left: 30px;
+    margin-right: 90px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    width: 45%; /* Each column takes about half the width */
+    margin-bottom: 15px; /* Adds space between form elements */
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
